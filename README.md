@@ -1,10 +1,10 @@
-##AIR BNB ANALYSIS
-##Introduction
+# AIR BNB ANALYSIS
+## Introduction
 The way people experience cities around the world has been completely transformed by Airbnb in the fields of contemporary travel and hospitality. Airbnb provides a variety of lodging options, ranging from comfortable private rooms to roomy entire apartments, as an online marketplace that connects hosts with travelers. The European Booking Dataset, a thorough compilation of information from nine renowned cities—Amsterdam, Athens, Barcelona, Berlin, Budapest, Lisbon, Paris, Rome, and Vienna—is the subject of this project. The dataset has undergone meticulous curation and cleaning, making it a useful tool for analysis and insight.
 
 This project's main goals are to perform exploratory data analysis (EDA), identify outliers in the dataset, and determine any possible causal links between outliers and guest satisfaction. In order to identify patterns, trends, and elements that affect visitors' overall experiences, we will combine data from various cities and Airbnb stays. We use SQL queries within the Snowflake environment to accomplish this, allowing us to quickly process and analyze large amounts of data.
 
-##Dataset Overview
+## Dataset Overview
 The dataset comprises several key variables that shed light on different dimensions of Airbnb stays. These variables include:
 
 City: The name of the city in which the Airbnb stay is located.
@@ -27,14 +27,14 @@ Normalized Attraction Index: A normalized version of the attraction index.
 Restaurant Index: An index measuring the proximity of restaurants to the accommodation.
 Normalized Restaurant Index: A normalized version of the restaurant index.
 
-##Project Goals
+## Project Goals
 Exploratory Data Analysis (EDA): Before delving into outlier detection and causal relationship establishment, it's crucial to understand the data. Through visualization and statistical analysis, we'll uncover insights such as price distributions, room type preferences, and location-based trends.
 
 Outlier Detection: Identifying outliers can provide valuable insights into unusual occurrences or exceptional cases within the dataset. By applying appropriate techniques, we can pinpoint instances that deviate significantly from the norm, potentially shedding light on hidden factors affecting guest satisfaction.
 
 Causal Relationship with Guest Satisfaction: Establishing causal relationships involves examining factors that might influence guest satisfaction scores. Through rigorous analysis, we'll explore correlations and potentially infer causal links between variables such as cleanliness ratings, distance to city center, and room types.
 
-##Task:
+## Task:
 1.Perform exploratory data analysis using Snowflake SQL and tell a story you'd like to tell with this dataset.
 2.Create a Database in Snowflake named "TOURISM"
 3.Create a Schema under that Database named "EUROPE"
